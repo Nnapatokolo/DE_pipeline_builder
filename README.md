@@ -10,10 +10,9 @@ This project ingests data from the GitHub Issues API into Google BigQuery.
 - Local state persistence
 
 
-## Production on GCP (design)
+## Production on GCP Notebook
 This script can be scheduled on GCP using:
 - Cloud Scheduler -> Cloud Run (recommended lightweight option)
-- or Cloud Composer (Airflow) if complex dependencies are needed
 
 ## Run
 ```bash
