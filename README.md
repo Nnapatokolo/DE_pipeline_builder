@@ -11,5 +11,5 @@ This project ingests data from the GitHub Issues API into Google BigQuery.
 
 ## Run
 ```bash
-python src/pipeline.py --repo "apache/airflow" --dataset "de_demo" --full_backfill
+python src/pipeline.py --repo "googleapis/python-bigquery" 
 python src/pipeline.py --repo "apache/airflow" --dataset "de_demo"
