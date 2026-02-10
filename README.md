@@ -15,6 +15,7 @@ python src/pipeline.py --repo "googleapis/python-bigquery"
 python src/pipeline.py --repo "apache/airflow" --dataset "de_demo"
 
 ## Production on GCP (design)
+```
 This script can be scheduled on GCP using:
 - Cloud Scheduler -> Cloud Run (recommended lightweight option)
 - or Cloud Composer (Airflow) if complex dependencies are needed
